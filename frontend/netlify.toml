@@ -1,7 +1,7 @@
 # Proxy API calls to the Spring Boot backend (replace with your Render URL)
 [[redirects]]
   from = "/api/*"
-  to = "https://YOUR-RENDER-SERVICE.onrender.com/api/:splat"
+  to = "https://rolexapp.onrender.com/api/:splat"
   status = 200
   force = true
 
