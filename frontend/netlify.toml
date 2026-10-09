@@ -1,0 +1,12 @@
+# Proxy API calls to the Spring Boot backend (replace with your Render URL)
+[[redirects]]
+  from = "/api/*"
+  to = "https://YOUR-RENDER-SERVICE.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+# SPA fallback for react-router (must come last)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

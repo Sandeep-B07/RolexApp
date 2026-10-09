@@ -1,0 +1,29 @@
+# Eclipse workspace / IDE artifacts (this folder is also an Eclipse workspace)
+.metadata/
+.sonarlint/
+.settings/
+.project
+.classpath
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# Backend
+backend/target/
+backend/bin/
+backend/.idea/
+backend/*.iml
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
