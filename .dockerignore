@@ -1,0 +1,9 @@
+.git
+.metadata
+.sonarlint
+.settings
+.idea
+frontend
+backend/target
+backend/bin
+*.log
